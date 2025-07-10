@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* shared style */
+ .prymary_btn{
+    background-color: #006A50;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    cursor: pointer;
+ }
+
+
+body{
+   font-family: "Fira Sans", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:31px 160px ;
+    height: 80px;
+    /* border: 1px solid red; */
+}
+.nav-title{
+ font-size: 32px;
+ font-weight: bold;
+ color: #0E0E0E;
+}
+.nav_btn{
+ color: #006A50;
+ border: 1px solid #006A50;
+ padding: 15px 30px;
+ border-radius: 8px;
+ cursor: pointer;
+}
+main{
+    max-width: 1280px;
+    margin: 0 auto ;
+}
+.banner_container{
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+    background-color: #C6E4D6;
+    height: 560px;
+    border-radius: 24px;
+    padding: 80px 60px;
+    margin-bottom: 80px;
+}
+.banner_title h2{
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 600;
+}
+.banner_title h1{
+    font-size: 56px;
+    color: #0E0E0E;
+    font-weight:bold ;
+    margin-bottom: 24px;
+}
+.banner_img{
+    width: 474px;
+    height: 400px;
+
+}
+/* parlar of Bangladesh2.0 style */
+
+
+.parlar_of_bangladesh{
+    margin-bottom: 80px;
+}
+.parlar_of_bangladesh h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 32px;
+}
+.bangladesh2_0-sarvice{
+    display: flex;
+    gap: 24px;
+}
+.sarvice-menu{
+    width: 302px;
+    height: 220px;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: #FFFFFF;
+}
+.sarvice-menu img{
+    height: 62px;
+    width: 62px;
+    margin-bottom: 25px;
+}
+.sarvice-menu h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #0E0E0E;
+}
+.sarvice-menu p{
+    color: rgba(14, 14, 14, 0.7);
+}
