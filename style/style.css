@@ -109,3 +109,92 @@ main{
 .sarvice-menu p{
     color: rgba(14, 14, 14, 0.7);
 }
+
+
+/* The vission of future section style */
+.the_vission_of_future{
+    height: 765px;
+}
+.vission_title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.vission_discription{
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+
+}
+.vission_item_container{
+    display: flex;
+    gap: 24px;
+    
+    
+    
+    margin-bottom: 32px;
+}
+.vission_item{
+    padding: 32px;
+    box-shadow: 2px 5px 8px  1px rgba(128, 128, 128, 0.432);
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+}
+.child2{
+    background-color: #C6E4D6;
+}
+.btn2{
+    background-color: #09A15C;
+    border: 1px solid #09A15C;
+}
+.child3{
+    background-color: #F7EBCF;
+}
+.btn3{
+    background-color: #FFC239;
+    border: 1px solid #FFC239;
+}
+.vission_img{
+    height: 64px;
+    width: 64px;
+    margin-bottom: 25px;
+}
+.item_title{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+    
+}
+.item_discription{
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+    
+}
+.btn1{
+    background-color: #5490F5;
+    border: 1px solid #5490F5 ;
+}
+.sometexts{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    border: 1px solid rgba(128, 128, 128, 0.295);
+    box-shadow: 2px 5px 8px  1px rgba(128, 128, 128, 0.432);
+    border-radius: 16px;
+    padding: 48px 24px;
+    background-position: 20px 20px; 
+    background-color: #FFFFFF;
+}
+.sometext{
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.chip_advisor{
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.chip{
+    color: rgba(14, 14, 14, 0.6);
+}
+
